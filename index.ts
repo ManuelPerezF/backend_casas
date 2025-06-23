@@ -1,5 +1,6 @@
 import express from 'express';
-//import casassRoutes from './src/routes/casas';
+import houseRoutes from './src/routes/houseRoutes';
+//import casasRoutes from './src/routes/casas';
 
 const app = express();
 app.use(express.json());
